@@ -11,3 +11,106 @@
 [2026-05-14T16:53:42.605+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
 [2026-05-14T16:53:42.605+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
 [2026-05-14T16:53:42.606+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2026-05-14T16:58:43.111+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-05-14T16:58:43.137+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2026-05-14T17:03:43.702+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-05-14T17:03:43.710+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2026-05-14T17:08:44.281+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-05-14T17:08:44.295+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2026-05-14T17:13:45.001+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-05-14T17:13:45.014+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2026-05-14T17:17:08.806+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-05-14T17:17:08.807+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-05-14T17:17:08.807+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-05-14T17:17:08.808+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-05-14T17:17:08.809+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2026-05-14T17:17:08.975+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/chicago_crimes_dag.py    166  0.10s             0           0
+================================================================================
+[2026-05-14T17:17:39.352+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/chicago_crimes_dag.py                           1           0  2.07s           2026-05-14T17:17:10
+================================================================================
+[2026-05-14T17:18:09.418+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/chicago_crimes_dag.py                           1           0  0.67s           2026-05-14T17:17:42
+================================================================================
+[2026-05-14T17:18:40.015+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/chicago_crimes_dag.py                           1           0  0.46s           2026-05-14T17:18:13
+================================================================================
+[2026-05-14T17:19:10.778+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/chicago_crimes_dag.py                           1           0  0.35s           2026-05-14T17:18:43
+================================================================================
+[2026-05-14T17:19:41.238+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/chicago_crimes_dag.py                           1           0  0.39s           2026-05-14T17:19:14
+================================================================================
+[2026-05-14T17:20:11.765+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/chicago_crimes_dag.py                           1           0  0.32s           2026-05-14T17:19:44
+================================================================================
+[2026-05-14T17:20:42.155+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/chicago_crimes_dag.py                           1           0  0.31s           2026-05-14T17:20:15
+================================================================================
+[2026-05-14T17:21:12.864+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/chicago_crimes_dag.py                           1           0  0.42s           2026-05-14T17:20:45
+================================================================================
+[2026-05-14T17:21:43.277+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/chicago_crimes_dag.py                           1           0  0.32s           2026-05-14T17:21:16
+================================================================================
+[2026-05-14T17:22:08.846+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-05-14T17:22:08.859+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
+[2026-05-14T17:22:13.945+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/chicago_crimes_dag.py                           1           0  0.29s           2026-05-14T17:21:46
+================================================================================
