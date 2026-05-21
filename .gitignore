@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Mac
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# dbt
+dbt/chicago_crimes/target/
+dbt/chicago_crimes/dbt_packages/
+dbt/chicago_crimes/.user.yml
+
+# Airflow
+airflow.cfg
+airflow.db

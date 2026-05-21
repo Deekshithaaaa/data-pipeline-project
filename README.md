@@ -1,40 +1,86 @@
-# 🚀 Data Pipeline Project
+# 🚀 Chicago Crime Analytics — End-to-End Data Pipeline
 
-An end-to-end ETL data pipeline that automatically ingests, transforms, and stores data for analytics and reporting.
+An automated end-to-end ETL data pipeline that ingests, transforms, and visualizes 
+real Chicago crime data using modern data engineering tools.
 
-## 📌 Project Overview
+## 📊 Dashboard
+![Dashboard](dashboard/chicago_crime_dashboard.pdf)
 
-This project simulates a real-world data engineering pipeline. It pulls data from a public dataset, cleans and transforms it using SQL, loads it into a PostgreSQL database, and visualizes insights through a dashboard — all automated and scheduled using Apache Airflow.
+**Key Insights:**
+- 🔴 Battery is the #1 crime with 228 incidents
+- 🟡 Theft follows closely with 198 incidents  
+- 📈 Overall arrest rate is 17.81%
+- 🚔 Narcotics has the highest arrest rate at 88%
+
+## 🏗️ Architecture
+Chicago Data Portal (API)
+↓
+Python Ingestion Script
+↓
+PostgreSQL (Raw Layer)
+↓
+SQL Transformations
+↓
+PostgreSQL (Clean Layer)
+↓
+Google Looker Studio Dashboard
 
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
 |------|---------|
 | Apache Airflow | Pipeline orchestration & scheduling |
-| dbt | Data transformation using SQL |
-| PostgreSQL | Data warehouse / storage |
-| Docker | Containerization & environment setup |
-| Python | Data ingestion scripts |
-| Metabase | Dashboard & visualization |
-
-## 🏗️ Architecture
-
-Raw Data (API/CSV) → Python Ingestion → PostgreSQL (Raw) → dbt Transformation → PostgreSQL (Clean) → Dashboard
+| PostgreSQL | Data warehouse |
+| Docker | Containerization |
+| Python | Data ingestion & transformation |
+| SQL | Data transformation models |
+| Google Looker Studio | Dashboard & visualization |
 
 ## 📂 Project Structure
-
 data-pipeline-project/
-├── dags/          # Airflow DAGs (pipeline schedules)
-├── ingestion/     # Python scripts to fetch raw data
-├── dbt/           # SQL transformation models
-├── dashboard/     # Dashboard screenshots
-└── docker-compose.yml  # Docker setup for Airflow
+├── dags/                    # Airflow DAGs
+│   └── chicago_crimes_dag.py
+├── ingestion/               # Python scripts
+│   ├── ingest_chicago_crimes.py
+│   └── transform.py
+├── dbt/                     # SQL transformation models
+│   └── chicago_crimes/
+│       └── models/
+├── dashboard/               # Dashboard files
+│   ├── chicago_crime_dashboard.pdf
+│   ├── crimes_by_type.csv
+│   └── crimes_by_district.csv
+└── docker-compose.yml
 
 ## 📊 Dataset
+- **Source:** Chicago Data Portal (Public API)
+- **Size:** 1,000+ daily crime records
+- **URL:** https://data.cityofchicago.org/resource/ijzp-q8t2.json
 
-Chicago Crime Data (Public Dataset)
-Source: Chicago Data Portal
+## ⚙️ How to Run
 
-## 🚧 Status
+### Prerequisites
+- Docker Desktop
+- Python 3.12+
 
-🔨 In Progress — actively being built
+### Steps
+```bash
+# Clone the repo
+git clone https://github.com/Deekshithaaaa/data-pipeline-project.git
+cd data-pipeline-project
+
+# Start Airflow
+docker-compose up -d
+
+# Run ingestion
+python ingestion/ingest_chicago_crimes.py
+
+# Run transformations
+python ingestion/transform.py
+```
+
+## 🔍 Key Findings
+- **Battery** and **Theft** account for 42% of all crimes
+- **Narcotics** has the highest arrest rate at 88%
+- **Deceptive Practice** and **Robbery** have 0% arrest rate
+- Most crimes occur in Districts 8, 11, and 6
