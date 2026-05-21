@@ -10,7 +10,7 @@ print("Fetching Chicago Crime data...")
 
 url = "https://data.cityofchicago.org/resource/ijzp-q8t2.json"
 params = {
-    "$limit": 1000,
+    "$limit": 100000,
     "$order": "date DESC"
 }
 
