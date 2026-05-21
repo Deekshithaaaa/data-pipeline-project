@@ -1,0 +1,70 @@
+[2026-05-21T00:00:16.649+0000] {processor.py:161} INFO - Started process (PID=4364) to work on /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:00:16.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/chicago_crimes_dag.py for tasks to queue
+[2026-05-21T00:00:16.652+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:00:16.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:00:16.859+0000] {processor.py:840} INFO - DAG(s) 'chicago_crimes_ingestion' retrieved from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:00:16.868+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:00:16.868+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-21T00:00:16.876+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:00:16.875+0000] {dag.py:3823} INFO - Setting next_dagrun for chicago_crimes_ingestion to 2026-05-20 00:00:00+00:00, run_after=2026-05-21 00:00:00+00:00
+[2026-05-21T00:00:16.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/chicago_crimes_dag.py took 0.240 seconds
+[2026-05-21T00:00:47.151+0000] {processor.py:161} INFO - Started process (PID=4370) to work on /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:00:47.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/chicago_crimes_dag.py for tasks to queue
+[2026-05-21T00:00:47.153+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:00:47.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:00:47.413+0000] {processor.py:840} INFO - DAG(s) 'chicago_crimes_ingestion' retrieved from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:00:47.423+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:00:47.423+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-21T00:00:47.434+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:00:47.434+0000] {dag.py:3823} INFO - Setting next_dagrun for chicago_crimes_ingestion to 2026-05-20 00:00:00+00:00, run_after=2026-05-21 00:00:00+00:00
+[2026-05-21T00:00:47.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/chicago_crimes_dag.py took 0.296 seconds
+[2026-05-21T00:01:17.601+0000] {processor.py:161} INFO - Started process (PID=4376) to work on /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:01:17.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/chicago_crimes_dag.py for tasks to queue
+[2026-05-21T00:01:17.604+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:01:17.603+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:01:17.883+0000] {processor.py:840} INFO - DAG(s) 'chicago_crimes_ingestion' retrieved from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:01:17.893+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:01:17.893+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-21T00:01:17.900+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:01:17.900+0000] {dag.py:3823} INFO - Setting next_dagrun for chicago_crimes_ingestion to 2026-05-20 00:00:00+00:00, run_after=2026-05-21 00:00:00+00:00
+[2026-05-21T00:01:17.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/chicago_crimes_dag.py took 0.310 seconds
+[2026-05-21T00:01:48.106+0000] {processor.py:161} INFO - Started process (PID=4382) to work on /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:01:48.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/chicago_crimes_dag.py for tasks to queue
+[2026-05-21T00:01:48.114+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:01:48.113+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:01:48.355+0000] {processor.py:840} INFO - DAG(s) 'chicago_crimes_ingestion' retrieved from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:01:48.367+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:01:48.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-21T00:01:48.375+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:01:48.375+0000] {dag.py:3823} INFO - Setting next_dagrun for chicago_crimes_ingestion to 2026-05-20 00:00:00+00:00, run_after=2026-05-21 00:00:00+00:00
+[2026-05-21T00:01:48.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/chicago_crimes_dag.py took 0.281 seconds
+[2026-05-21T00:02:18.665+0000] {processor.py:161} INFO - Started process (PID=4388) to work on /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:02:18.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/chicago_crimes_dag.py for tasks to queue
+[2026-05-21T00:02:18.670+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:02:18.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:02:18.950+0000] {processor.py:840} INFO - DAG(s) 'chicago_crimes_ingestion' retrieved from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:02:18.967+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:02:18.967+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-21T00:02:18.975+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:02:18.975+0000] {dag.py:3823} INFO - Setting next_dagrun for chicago_crimes_ingestion to 2026-05-20 00:00:00+00:00, run_after=2026-05-21 00:00:00+00:00
+[2026-05-21T00:02:18.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/chicago_crimes_dag.py took 0.331 seconds
+[2026-05-21T00:02:49.049+0000] {processor.py:161} INFO - Started process (PID=4394) to work on /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:02:49.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/chicago_crimes_dag.py for tasks to queue
+[2026-05-21T00:02:49.052+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:02:49.051+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:02:49.295+0000] {processor.py:840} INFO - DAG(s) 'chicago_crimes_ingestion' retrieved from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:02:49.305+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:02:49.304+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-21T00:02:49.312+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:02:49.312+0000] {dag.py:3823} INFO - Setting next_dagrun for chicago_crimes_ingestion to 2026-05-20 00:00:00+00:00, run_after=2026-05-21 00:00:00+00:00
+[2026-05-21T00:02:49.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/chicago_crimes_dag.py took 0.279 seconds
+[2026-05-21T00:03:19.606+0000] {processor.py:161} INFO - Started process (PID=4400) to work on /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:03:19.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/chicago_crimes_dag.py for tasks to queue
+[2026-05-21T00:03:19.610+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:03:19.609+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:03:19.800+0000] {processor.py:840} INFO - DAG(s) 'chicago_crimes_ingestion' retrieved from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:03:19.808+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:03:19.807+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-21T00:03:19.815+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:03:19.815+0000] {dag.py:3823} INFO - Setting next_dagrun for chicago_crimes_ingestion to 2026-05-20 00:00:00+00:00, run_after=2026-05-21 00:00:00+00:00
+[2026-05-21T00:03:19.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/chicago_crimes_dag.py took 0.220 seconds
+[2026-05-21T00:03:50.081+0000] {processor.py:161} INFO - Started process (PID=4406) to work on /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:03:50.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/chicago_crimes_dag.py for tasks to queue
+[2026-05-21T00:03:50.084+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:03:50.083+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:03:50.406+0000] {processor.py:840} INFO - DAG(s) 'chicago_crimes_ingestion' retrieved from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:03:50.417+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:03:50.417+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-21T00:03:50.424+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:03:50.424+0000] {dag.py:3823} INFO - Setting next_dagrun for chicago_crimes_ingestion to 2026-05-20 00:00:00+00:00, run_after=2026-05-21 00:00:00+00:00
+[2026-05-21T00:03:50.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/chicago_crimes_dag.py took 0.355 seconds
+[2026-05-21T00:04:20.527+0000] {processor.py:161} INFO - Started process (PID=4412) to work on /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:04:20.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/chicago_crimes_dag.py for tasks to queue
+[2026-05-21T00:04:20.534+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:04:20.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:04:20.826+0000] {processor.py:840} INFO - DAG(s) 'chicago_crimes_ingestion' retrieved from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:04:20.836+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:04:20.836+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-21T00:04:20.843+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:04:20.843+0000] {dag.py:3823} INFO - Setting next_dagrun for chicago_crimes_ingestion to 2026-05-20 00:00:00+00:00, run_after=2026-05-21 00:00:00+00:00
+[2026-05-21T00:04:20.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/chicago_crimes_dag.py took 0.332 seconds
+[2026-05-21T00:04:51.252+0000] {processor.py:161} INFO - Started process (PID=4418) to work on /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:04:51.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/chicago_crimes_dag.py for tasks to queue
+[2026-05-21T00:04:51.256+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:04:51.255+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:04:51.524+0000] {processor.py:840} INFO - DAG(s) 'chicago_crimes_ingestion' retrieved from /opt/airflow/dags/chicago_crimes_dag.py
+[2026-05-21T00:04:51.536+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:04:51.536+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-21T00:04:51.544+0000] {logging_mixin.py:188} INFO - [2026-05-21T00:04:51.544+0000] {dag.py:3823} INFO - Setting next_dagrun for chicago_crimes_ingestion to 2026-05-20 00:00:00+00:00, run_after=2026-05-21 00:00:00+00:00
+[2026-05-21T00:04:51.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/chicago_crimes_dag.py took 0.305 seconds
